@@ -1,0 +1,32 @@
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+
+.preview .baku {
+  background-image: url(images/baku.jpg);
+}
+
+.preview .london {
+  background-image: url(images/london.png);
+}
+
+.preview .madrid {
+  background-image: url(images/madrid.jpg);
+}
+
+.preview .rome {
+  background-image: url(images/rome.jpg);
+}
+
+@media screen and (min-width: 575px){
+  .preview {
+  margin: 1%;
+  width: 100%;
+  }
+
+@media screen and (min-width: 991px){
+  .preview {
+  margin: 1%;
+  width: 100%;
+  }
