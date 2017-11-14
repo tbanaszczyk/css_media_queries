@@ -26,7 +26,6 @@ h1 {
   margin: 5px 0 5px 0;
   width: 100%;
   padding: 10px 0 10px 10px;
-  float: center;
   display: inline-block;
 }
 
@@ -37,52 +36,42 @@ h2 {
   letter-spacing: normal;
 }
 
-div.baku {
-  background-color: red;
-}
-
-div.london {
-  background-color: blue;
-}
-
-div.madrid {
-  background-color: yellow;
-}
-
-div.rome {
-  background-color: green;
-}
-
 @media screen and (min-width: 575px){
   .preview {
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
     display: inline-block;
-    width: 50%;
+    width: 43%;
   }
+}
+
+.container {
+  text-align: center;
+}
 
 @media screen and (min-width: 991px){
   .preview {
-    margin: 5px 5px 5px 5px;
+    margin: 1%;
     display: inline-block;
-    width: 50%;
+    width: 21%;
   }
-
-
-/*
-
-
-.preview .baku {
-  background-image: url(images/baku.jpg);
 }
 
-.preview .london {
-  background-image: url(images/london.png);
+.baku {
+  background-image: url("../images/baku.jpg");
+  height: 200px;
 }
 
-.preview .madrid {
-  background-image: url(images/madrid.jpg);
+.london {
+  background-image: url("../images/london.png");
+  height: 200px;
 }
 
-.preview .rome {
-  background-image: url(images/rome.jpg);
+.madrid {
+  background-image: url("../images/madrid.jpg");
+  height: 200px;
+}
+
+.rome {
+  background-image: url("../images/rome.jpg");
+  height: 200px;
 }
