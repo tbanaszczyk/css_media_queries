@@ -1,7 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
+  background-color: #fff;
   font-size: 10px;
 }
+
+.container {
+  background-color: #dadada;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 75%;
+  letter-spacing: 0.15em;
+  margin-bottom: 1em;
+}
+
+.preview {
+  margin: 5px 0 5px 0;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  float: center;
+  display: inline-block;
+}
+
+h2 {
+  text-align: left;
+  font-family: serif;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+div.baku {
+  background-color: red;
+}
+
+div.london {
+  background-color: blue;
+}
+
+div.madrid {
+  background-color: yellow;
+}
+
+div.rome {
+  background-color: green;
+}
+
+@media screen and (min-width: 575px){
+  .preview {
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 50%;
+  }
+
+@media screen and (min-width: 991px){
+  .preview {
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    width: 50%;
+  }
+
+
+/*
+
 
 .preview .baku {
   background-image: url(images/baku.jpg);
@@ -18,15 +86,3 @@ body {
 .preview .rome {
   background-image: url(images/rome.jpg);
 }
-
-@media screen and (min-width: 575px){
-  .preview {
-  margin: 1%;
-  width: 100%;
-  }
-
-@media screen and (min-width: 991px){
-  .preview {
-  margin: 1%;
-  width: 100%;
-  }
